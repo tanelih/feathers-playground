@@ -1,0 +1,5 @@
+.env
+.vscode
+
+target
+node_modules

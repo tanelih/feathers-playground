@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "@feathersjs/configuration": "1.0.2",
+    "@feathersjs/express": "1.1.2",
+    "@feathersjs/feathers": "3.1.0",
+    "dotenv": "5.0.0",
+    "nodemon": "1.14.12",
+    "winston": "2.4.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "4.0.2",
+    "@types/feathersjs__configuration": "1.0.0",
+    "@types/feathersjs__express": "1.1.2",
+    "@types/feathersjs__feathers": "3.0.0",
+    "@types/node": "9.4.0",
+    "@types/winston": "2.3.7",
+    "typescript": "2.7.1"
+  }
+}
