@@ -1,6 +1,6 @@
 {
   "watch": [
-    "target"
+    "src"
   ],
-  "exec": "node target/index.js"
+  "exec": "node src/index.js"
 }
