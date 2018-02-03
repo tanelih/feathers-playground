@@ -2,7 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "outDir": "target",
-    "module": "commonjs"
+    "module": "commonjs",
+    "target": "es2015"
   },
   "include": [
     "src/**/*"

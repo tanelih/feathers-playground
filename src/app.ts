@@ -1,9 +1,11 @@
-import * as express from '@feathersjs/express'
+import * as express from'@feathersjs/express'
+import * as feathers from'@feathersjs/feathers'
 
-import feathers from '@feathersjs/feathers'
-import configuration from '@feathersjs/configuration'
-
-export const app = express.default(feathers())
-  .configure(configuration())
-  .use(express.json())
-  .use(express.errorHandler())
+export function create () {
+  const app = express.default(feathers.default())
+    .use(express.json())
+    .use(express.errorHandler())
+    .configure(express.rest())
+  require('./services/driver').create(app)
+  return app
+}
